@@ -120,10 +120,6 @@ Vue.component('datakompetanse', {
               nameEn: "Databases",
               comp: [
                 {
-                  name: "Microsoft Access",
-                  fading: true
-                },
-                {
                   name: "Microsoft SQL Server",
                   fading: false
                 },
@@ -141,6 +137,10 @@ Vue.component('datakompetanse', {
                 },
                 {
                   name: "PostgresSQL",
+                  fading: false
+                },
+                {
+                  name: "MongoDB",
                   fading: false
                 }
               ]
@@ -283,6 +283,10 @@ Vue.component('datakompetanse', {
                 },
                 {
                   name: "Docker Swarm",
+                  fading: false
+                },
+                {
+                  name: "RabbitMQ",
                   fading: false
                 }
               ]

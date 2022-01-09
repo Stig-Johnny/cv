@@ -1,0 +1,348 @@
+@charset "UTF-8";
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 0.75rem;
+  font-size: 0.6rem;
+  color: #2a333c;
+  color: #000;
+  background: #fff;
+  width: 100%;
+  position: relative;
+}
+
+html body {
+  /*background: #f5f5f5;*/
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+html body * {
+  -webkit-print-color-adjust: exact;
+}
+
+html body .container {
+  min-width: 794px;
+  width: 76em;
+  max-width: 76em;
+  margin: 0 auto;
+  max-width: 843px;
+  width: 843px;
+  min-width: 843px;
+  min-width: 700px;
+  width: 700px;
+  max-width: 700px;
+}
+
+.row {
+  display: table;
+  content: "";
+  width: 100%;
+}
+
+.row *[class*="col-"],
+.row *[class^=" col-"] {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.row .col-sm-2 {
+  max-width: 16.6666666667%;
+  width: 16.6666666667%;
+}
+
+.row .col-sm-3 {
+  max-width: 25%;
+  width: 25%;
+}
+
+.row .col-sm-3 {
+  max-width: 25%;
+  width: 25%;
+}
+
+.row .col-sm-4 {
+  max-width: 33.3333333333%;
+  width: 33.3333333333%;
+}
+
+.row .col-sm-5 {
+  max-width: 41.6666666667%;
+  width: 41.6666666667%;
+}
+
+.row .col-sm-6 {
+  max-width: 50%;
+  width: 50%;
+}
+
+.row .col-sm-7 {
+  max-width: 58.33333333%;
+  width: 58.33333333%;
+}
+
+.row .col-sm-8 {
+  max-width: 66.6666666667%;
+  width: 66.6666666667%;
+}
+
+.row .col-sm-9 {
+  max-width: 75%;
+  width: 75%;
+}
+
+.personopplysninger {
+  position: relative;
+}
+
+.personopplysninger .heading,
+.personopplysninger .info {
+  display: inline-block;
+}
+
+.personopplysninger h1 {
+  font-size: 7.5em;
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+  color: #fff;
+  display: inline-block;
+  padding-right: 0;
+  padding-left: 0;
+  background: #475b76;
+  border-radius: 50%;
+  width: 1.975em;
+  height: 1.975em;
+  line-height: 1.975em;
+  text-align: center;
+  letter-spacing: 0.05em;
+  position: relative;
+  overflow: hidden;
+  /**/
+  /*
+    background:#fff;
+    color:#000;
+    border-left:0.02em solid #ccc;
+    border-top:0.02em solid #ccc;
+    border-radius:0;
+    overflow:visible;
+    */
+  background: #fff;
+  color: #000;
+  text-align: left;
+}
+
+.personopplysninger h1 .binary {
+  font-size: 0.12em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 1;
+  color: #c7f2ff;
+  opacity: 0.2;
+  display: none;
+}
+
+.personopplysninger h1 .c {
+  position: relative;
+}
+
+.personopplysninger h1 .v {
+  position: relative;
+}
+
+.personopplysninger .info {
+  text-align: right;
+  line-height: 2em;
+  padding-right: 2em;
+}
+
+.personopplysninger .info .items {
+  position: relative;
+}
+
+.personopplysninger .info .items > span {
+  position: relative;
+  padding: 0 0.2em 0 0.2em;
+  border-top: 0.1em solid #ccc !important;
+  border-right: 0.1em solid #ccc !important;
+  border-bottom: 0.1em solid #ccc !important;
+  border-left: 0.1em solid #ccc !important;
+}
+
+.personopplysninger .info .info-left {
+  font-weight: bold;
+  text-align: right;
+  display: inline-block;
+  top: 3.225em;
+  right: 0.7em;
+  position: relative;
+  vertical-align: top;
+  margin-top: -0.65em;
+}
+
+.personopplysninger .info .info-left .items:after {
+  content: "";
+  width: 1em;
+  height: 0.1em;
+  background: #ccc !important;
+  position: absolute;
+  right: -1em;
+  top: 1em;
+}
+
+.personopplysninger .info .info-left .items:nth-child(2), .personopplysninger .info .info-left .items:nth-child(4) {
+  margin-right: -0.29em;
+}
+
+.personopplysninger .info .info-left .items:nth-child(1), .personopplysninger .info .info-left .items:nth-child(5) {
+  margin-right: -1.1em;
+}
+
+.personopplysninger .info .img-outer {
+  border: 0.1em solid #ccc !important;
+  border-radius: 50%;
+  padding: 0.625em;
+  /*margin: -0.625rem;*/
+  background-color: #fff;
+  text-align: center;
+  height: 15em;
+  width: 15em;
+  display: inline-block;
+}
+
+.personopplysninger .info .img-outer img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+  -ms-flex-item-align: right;
+      -ms-grid-row-align: right;
+      align-self: right;
+}
+
+.personopplysninger .info .info-right {
+  display: inline-block;
+  text-align: left;
+  top: 3.225em;
+  left: 0.7em;
+  position: relative;
+  vertical-align: top;
+  margin-top: -0.65em;
+}
+
+.personopplysninger .info .info-right .items:after {
+  content: "";
+  width: 1em;
+  height: 0.1em;
+  background: #ccc !important;
+  position: absolute;
+  left: -1em;
+  top: 1em;
+}
+
+.personopplysninger .info .info-right .items:nth-child(2), .personopplysninger .info .info-right .items:nth-child(4) {
+  margin-left: -0.29em;
+}
+
+.personopplysninger .info .info-right .items:nth-child(1), .personopplysninger .info .info-right .items:nth-child(5) {
+  margin-left: -1.1em;
+}
+
+.data-striped {
+  margin-bottom: 2em;
+  font-size: 1.1em;
+}
+
+.data-striped .row {
+  margin: 0;
+  /*padding-bottom: 0.5rem;*/
+}
+
+.data-striped .item:nth-child(2n) {
+  background: #c7f2ff;
+}
+
+.data-striped span.badge-pill {
+  background-color: #fff;
+}
+
+.data-striped *[class*="col-"],
+.data-striped *[class^=" col-"] {
+  padding: 0.4em;
+  line-height: 1.6;
+}
+
+.data-striped .dateMonth {
+  display: inline-block;
+  min-width: 2em;
+}
+
+.data-striped .dateYear {
+  display: inline-block;
+  min-width: 2.5em;
+}
+
+span.badge-pill {
+  margin-right: 0.5em;
+  position: relative;
+  display: inline-block;
+  /*background-color:#2a333c;
+  color:#fff;*/
+  border: 1px solid #add8e6;
+  padding: 0 0.5em 0 0.5em;
+  border-radius: 1em;
+  margin-bottom: 0.2em;
+  margin-top: 0.2em;
+}
+
+span.badge-pill.fading {
+  background: #ddd;
+  opacity: 0.7;
+}
+
+h2 span.badge-pill {
+  float: right;
+  font-weight: normal;
+  font-size: 0.7em;
+  line-height: 1.6;
+}
+
+#flag {
+  height: 1.38em;
+  position: absolute;
+  top: 5.1em;
+  right: 6.69em;
+}
+
+.intro {
+  padding-left: 1%;
+}
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 0 0 0 10px;
+  padding: 1em 10px;
+  quotes: "“" "”" "‘" "’";
+  line-height: 1.14;
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+}
+/*# sourceMappingURL=index.css.map */
