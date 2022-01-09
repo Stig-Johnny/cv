@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>CV for Stig-Johnny Støbakk</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+  <!--  Styles  -->
+  <!--
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous" />-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4=" crossorigin="anonymous" />
+  <link rel="stylesheet" href="../../styles/index.processed.css?v=4">
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.js" integrity="sha256-mbLkHeR3UG9BrG6xkSznl679LhGecGYbw0fTF5KacNg=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <div id="app-cv" class="container">
+    <personopplysninger inline-template>
+      
+      <div class="personopplysninger row">
+        <div class="col-sm-2 heading">
+          
+          <h1>
+            <div class="binary">0 0 0 1 0 1 1 0 1 0 0 1 1 1 0 0 0 0 0 0 1 1 0 1 1 0 0 0 1 1 1 1 0 1 1 0 0 0 1 1 1 1 0 0 0 0 1 1 0 1 1 1 0 1 1 1 0 1 1 0 0 0 0 1 0 1 1 1 1 0 0 1 0 0 1 0 1 0 0 1 1 1 0 0 1 0 0 1 0 1 1 1 1 1 0 0 1 0 1 1 1 0 0 1 1 1 0 1 1 1 0 0 0 0 1 0 0 0 0 1 0 1 0 1 0 1 1 1 0 0 0 1 1 1 0 1 0 1 0 1 1 1 1 1 0 0 1 0 1 0 0 0 1 1 0 1 1 0 1 1 0 0 0 1 1 1 0 0 1 0 1 0 1 1 1 0 0 0 0 1 1 0 1 0 1 0 0 1 1 0 0 0 0 0 1 1 0 1 0 0 0 1 0 1 1 0 1 1 0 0 0 0 1 0 1 0 0 1 0 1 0 0 1 0 1 1 0 0 0 0 0 1 1 1 1 1 1 1 0 1 0 1 0 0 0 1 1 0 1 1 1 1 0 1 1 1 0 0 0 0 0 0 1 0 1 0 1 1 1 0 1 1 1 0 1 1 0 0 1 1 0 1 1 0 0 0 0 0 1 1 0 1 1 1 0 1 0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 1 0 1 1 1 1 1 0 1 0 0 1 0 1 1 1 1 0 1 1 0 0 1 1 0 1 0 0 1 0 1 0 0 0 1 1 0 0 0 0 1 0 1 0 1 1 0 0 1 1 1 1 1 1 1 1 0 0 0 0 1 1 0 1 0 1 0 0 1 0 0 0 1 0 1 0 1 0 0 0 1 0 1 1 1 0 1 0 1 1 1 0 0 0 0 1 1 1 1 1 1 0 1 0 0 0 0 0 1 1 0 1 0 1 0 0 1 1 1 1 1 1 1 1 0 1 1 0 1 0 1 0 1 1 0 1 1 0 1 1 1 0 1 1 0 1 0 0 1 1 1 0 0 1 1 0 1 1 0 1 1 0 1 0 1 0 1 1 0 1 0 1 0 1 0 1 1 0 0 0 1 0 0 1 0 1 1 1 0 0 0 1 1 1 1 1 0 1 1 0 1 1 0 1 0 0 1 0 1 1 0 0 0 1 1 1 0 0 0 0 0 1 0 0 1 1 1 1 0 0 1 1 0 0 0 0 1 0 1 1 1 0 1 0 1 0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 1 0 0 1 0 0 1 1 1 0 0 1 1 0 1 0 0 1 0 1 0 0 0 0 1 1 1 1 1 1 1 1 1 0 1 0 0 1 0 1 1 0 0 1 0 0 0 1 1 1 1 1 1 0 1 0 0 0 0 0 1 1 1 0 1 1 1 0 0 0 </div>
+            <span class="c">C</span><span class="v">V</span></h1>
+        </div>       
+        <div class="col-sm-7 info">
+          <div class="text-right info-left">
+            <div v-for="item in data" class="items">
+              <span>{{item.nameEn}}</span>
+            </div>
+          </div>
+          <div class="img-outer">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/212695/me-400x400.jpeg" alt="" />
+          </div>
+          <div class="text-left info-right">
+            <div v-for="item in data" class="items">
+              <span>{{item.value}}</span>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3 intro">
+          <blockquote>
+            <p>As a person, I am very academically involved and spend a lot of time putting myself into new challenges to find best practices and effective solutions. This means that I often suggest innovative new ways to use frameworks and tools I come across during a project.</p>
+          </blockquote>
+        </div>
+        <!--
+        <div class="col-sm-2 heading">
+          <h1>V</h1>
+        </div>
+-->
+      </div>
+    </personopplysninger>
+
+
+    <!--
+    <personopplysninger inline-template>
+      <div class="personopplysninger row">
+        <div class="col-sm-8">
+          <h2>Personopplysninger</h2>
+          <div v-for="item in data" class="item row">
+            <span class="col-sm mt-2">{{item.name}}</span>
+            <span class="col-sm mt-2">{{item.value}}</span>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <img class="float-right" src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAIA_wDGAAAAAQAAAAAAAArkAAAAJDNjZjE1MzdlLTQ3M2UtNDRkZC1iMzBjLTRiNTc5Y2NiMzgzZg.jpg" alt=""/>
+        </div>
+      </div>
+    </personopplysninger>
+-->
+
+
+    <utdannelse inline-template>
+      <div class="utdannelse data-striped">
+        <h2>Education</h2>
+        <div v-for="item in data" class="item row">
+          <!--<span class="col-sm-3 mt-2">{{item.dateEn}}</span>-->
+          <span class="col-sm-3 mt-2">
+            <span class="dateMonth">{{item.dateFromMonthEn}}</span>
+            <span class="dateYear">{{item.dateFromYear}}</span>
+            <span> - </span>
+            <span class="dateMonth" v-if="item.dateToMonthEn">{{item.dateToMonthEn}}</span>
+            <span class="dateYear" v-if="item.dateToYear">{{item.dateToYear}}</span>
+            <span>{{item.dateToPresent}}</span>
+          </span>
+          <span class="col-sm-4 mt-2">{{item.schoolEn}}</span>
+          <span class="col-sm-5 mt-2" v-html="item.descrEn">{{item.descrEn}}</span>
+        </div>
+      </div>
+    </utdannelse>
+
+    <praksis inline-template>
+      <div class="praksis data-striped">
+        <h2>Experience</h2>
+        <div v-for="item in data" class="item row">
+          <!--<span class="col-sm-3 mt-2">{{item.dateEn}}</span>-->
+          <span class="col-sm-3 mt-2">
+            <span class="dateMonth">{{item.dateFromMonthEn}}</span>
+            <span class="dateYear">{{item.dateFromYear}}</span>
+            <span> - </span>
+            <span class="dateMonth" v-if="item.dateToMonthEn">{{item.dateToMonthEn}}</span>
+            <span class="dateYear" v-if="item.dateToYear">{{item.dateToYear}}</span>
+            <span>{{item.dateToPresent}}</span>
+          </span>
+          <span class="col-sm-4 mt-2">{{item.whereEn}}</span>
+          <span class="col-sm-5 mt-2">{{item.descrEn}}</span>
+        </div>
+      </div>
+    </praksis>
+
+<!--
+    <sertifikater inline-template>
+      <div class="data-striped">
+        <h2>Sertifikater</h2>
+        <div v-for="item in data" class="item row">
+          <span class="col-sm-3 mt-2">{{item.where}}</span>
+          <span class="col-sm-4 mt-2">{{item.descr}}</span>
+        </div>
+      </div>
+    </sertifikater>
+-->
+
+    <datakompetanse inline-template>
+      <div class="data-striped">
+        <h2>Computer skills and competences <span class="badge badge-pill badge-info fading">= old skills (fading)</span><span class="badge badge-pill badge-info">= present skills</span></h2>
+        <div v-for="item in data" class="item row">
+          <span class="col-sm-3 mt-2">{{item.nameEn}}</span>
+          <span class="col-sm-9 mt-2">
+            <span v-for="c in item.comp" class="badge badge-pill badge-info"  v-bind:class="{ fading: c.fading }">{{c.name}}</span>
+          </span>
+        </div>
+      </div>
+    </datakompetanse>
+    
+    <annenkompetanse inline-template>
+      <div class="data-striped">
+        <h2>Other skills</h2>
+        <div v-for="item in data" class="item row">
+          <span class="col-sm-3 mt-2">{{item.nameEn}}</span>
+          <span class="col-sm-9 mt-2">
+            <span v-for="c in item.comp" class="badge badge-pill badge-info">{{c.nameEn}}</span>
+          </span>
+        </div>
+      </div>
+    </annenkompetanse>
+
+
+  </div>
+
+
+  <template id="data-striped">
+  </template>
+
+
+  <!--<script src="../../../app.processed.js?v=1"></script>-->
+
+</body>
+
+</html>
