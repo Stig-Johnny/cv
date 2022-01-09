@@ -288,6 +288,18 @@ Vue.component('datakompetanse', {
                 {
                   name: "RabbitMQ",
                   fading: false
+                },
+                {
+                  name: "Jira",
+                  fading: false
+                },
+                {
+                  name: "Confluence",
+                  fading: false
+                },
+                {
+                  name: "Rider",
+                  fading: false
                 }
               ]
             }
