@@ -234,6 +234,10 @@ Vue.component('datakompetanse', {
                 {
                   name: "Azure SQL elastic pools",
                   fading: false
+                },
+                {
+                  name: "Azure Cognitive Services",
+                  fading: false
                 }
                 
                 
@@ -299,6 +303,14 @@ Vue.component('datakompetanse', {
                 },
                 {
                   name: "Rider",
+                  fading: false
+                },
+                {
+                  name: "Blazor",
+                  fading: false
+                },
+                {
+                  name: "WPF",
                   fading: false
                 }
               ]

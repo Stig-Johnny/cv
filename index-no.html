@@ -9,11 +9,8 @@
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
-  <!--  Styles  -->
-  <!--
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha256-QUyqZrt5vIjBumoqQV0jM8CgGqscFfdGhN+nVCqX0vc=" crossorigin="anonymous" />-->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4=" crossorigin="anonymous" />
-  <link rel="stylesheet" href="/styles/index.processed.css?v=4">
+  <link rel="stylesheet" href="/styles/index.css">
   
   <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.9/vue.js" integrity="sha256-mbLkHeR3UG9BrG6xkSznl679LhGecGYbw0fTF5KacNg=" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
@@ -73,12 +70,12 @@
       <div v-for="item in data" class="item row">
         <!--<span class="col-sm-3 mt-2">{{item.date}}</span>-->
         <span class="col-sm-3 mt-2">
-          <span class="dateMonth">{{item.dateFromMonth}}</span>
-          <span class="dateYear">{{item.dateFromYear}}</span>
-          <span> - </span>
-          <span class="dateMonth" v-if="item.dateToMonth">{{item.dateToMonth}}</span>
+          <!-- <span class="dateMonth">{{item.dateFromMonth}}</span>
+          <span class="dateYear">{{item.dateFromYear}}</span> -->
+          <span>{{item.date}}</span>
+          <!-- <span class="dateMonth" v-if="item.dateToMonth">{{item.dateToMonth}}</span>
           <span class="dateYear" v-if="item.dateToYear">{{item.dateToYear}}</span>
-          <span>{{item.dateToPresent}}</span>
+          <span>{{item.dateToPresent}}</span> -->
         </span>
         <span class="col-sm-4 mt-2">{{item.school}}</span>
         <span class="col-sm-5 mt-2" v-html="item.descr">{{item.descr}}</span>
@@ -90,20 +87,17 @@
     <div class="praksis data-striped">
       <h2>Praksis</h2>
       <div v-for="item in data" class="item row">
-        <!--<span class="col-sm-3 mt-2">{{item.date}}</span>-->
+        <!--<span class="col-sm-3 mt-2">{{item.dateEn}}</span>-->
         <span class="col-sm-3 mt-2">
-          <span class="dateMonth">{{item.dateFromMonth}}</span>
-          <span class="dateYear">{{item.dateFromYear}}</span>
-          <span> - </span>
-          <span class="dateMonth" v-if="item.dateToMonth">{{item.dateToMonth}}</span>
-          <span class="dateYear" v-if="item.dateToYear">{{item.dateToYear}}</span>
-          <span>{{item.dateToPresent}}</span>
+          <span>{{item.date}}</span>
         </span>
         <span class="col-sm-4 mt-2">{{item.where}}</span>
         <span class="col-sm-5 mt-2">{{item.descr}}</span>
       </div>
     </div>
   </script>
+
+
 
   <script type="text/x-template" id="datakompetanse-template">
     <div class="data-striped">
