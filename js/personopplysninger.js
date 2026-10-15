@@ -10,18 +10,6 @@ Vue.component('personopplysninger', {
               valueEn: "Stig-Johnny Stoebakk"
             },
             {
-              name: "Født",
-              nameEn: "Born",
-              value : "31/03/1983",
-              valueEn : "31/03/1983"
-            },
-            {
-              name: "Adresse",
-              nameEn: "Address",
-              value : "Bjørndalsjordet 59, 1270 Oslo, Norway",
-              valueEn : "Bjoerndalsjordet 59, 1270 Oslo, Norway"
-            },
-            {
               name: "E-post",
               nameEn: "E-mail",
               value : "post@stigjohnny.no",
@@ -32,6 +20,18 @@ Vue.component('personopplysninger', {
               nameEn: "Mobile",
               value : "+47 966 29 919",
               valueEn : "+47 966 29 919"
+            },
+            {
+              name: "Web",
+              nameEn: "Web",
+              value : "www.stigjohnny.no",
+              valueEn : "www.stigjohnny.no"
+            },
+            {
+              name: "Sted",
+              nameEn: "Location",
+              value : "Remote i EØS, Norge etter avtale",
+              valueEn : "Remote within the EEA, Norway on request"
             }
           ]
         };

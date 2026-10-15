@@ -345,4 +345,19 @@ blockquote:before {
 blockquote p {
   display: inline;
 }
+
+@media print {
+  @page {
+    size: A4;
+    margin: 10mm;
+  }
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  /* tuned so the CV fits one A4 page */
+  #app-cv {
+    zoom: 0.84;
+  }
+}
 /*# sourceMappingURL=index.css.map */
