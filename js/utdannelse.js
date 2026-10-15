@@ -13,7 +13,7 @@ Vue.component('utdannelse', {
               school: "Deakin University (Australia)",
               schoolEn: "Deakin University (Australia)",
               descr: "Bachelor Of Information Technology <br/>(with a major in Computer Science And Software Development) (3-årig)",
-              descrEn: "Bachelor Of Information Technology <br/>(with a major in Computer Science And Software Development) (3 years)"
+              descrEn: "Bachelor of Information Technology <br/>(with a major in Computer Science and Software Development) (3 years)"
             },
             {
               date: "Aug 2004 – Jun 2005",

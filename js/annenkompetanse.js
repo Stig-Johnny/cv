@@ -13,13 +13,13 @@ Vue.component('annenkompetanse', {
                 },
                 {
                   name: "Engelsk (flytende skriftlig og muntlig)",
-                  nameEn: "English (fluently written and oral)"
+                  nameEn: "English (fluent, written and spoken)"
                 }
               ]
             },
             {
               name: "Førerkort",
-              nameEn: "Driver license",
+              nameEn: "Driver's license",
               comp: [
                 {
                   name: "Klasse B",

@@ -16,8 +16,8 @@ Vue.component('praksis', {
               dateEn: "Oct 2023 – present",
               where: "Invotek AS",
               whereEn: "Invotek AS",
-              descr: "Daglig leder og AI-arkitekt <br/>Kunder: Veriton (siden aug. 2026), Norsk Helsenett (jan. 2024 – jun. 2026, plattform)",
-              descrEn: "Managing Director and AI Solution Architect <br/>Clients: Veriton (since Aug 2026), Norsk Helsenett (Jan 2024 – Jun 2026, platform engineering)"
+              descr: "Daglig leder og AI-arkitekt <br/>Kunder: Veriton (siden aug. 2026), Norsk Helsenett (jan. 2024 – jun. 2026, utvikler og plattformingeniør)",
+              descrEn: "Managing Director and AI Solution Architect <br/>Clients: Veriton (since Aug 2026), Norsk Helsenett (Jan 2024 – Jun 2026, developer and platform engineer)"
             },
             {
               date: "Aug 2022 – Sep 2023",
