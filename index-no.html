@@ -57,8 +57,10 @@
       </div>
       <div class="col-sm-3 intro">
         <blockquote>
-          <p>Utvikler, arkitekt og prosjektleder i ulike nettbaserte prosjekter både front-end og back-end. 
-            <br/><br/>Jeg liker å holde meg oppdatert på ny teknologi og å finne løsninger som kan gjøre dagen min (og andres) mer effektiv.</p>
+          <p><strong>AI-arkitekt og innleid CTO</strong>
+            <br/>Agentic engineering · .NET, iOS, Azure/GCP, Kubernetes
+            <br/>17 år som utvikler, tech lead og løsningsarkitekt. AI-agenter planlegger, koder og tester, hver endring er en pull request med review, og ingenting går i produksjon før en person hos dere har godkjent det.
+            <br/>Fire apper i App Store. 50 % ledig kapasitet nå.</p>
         </blockquote>
       </div>
     </div>
@@ -78,7 +80,7 @@
           <span>{{item.dateToPresent}}</span> -->
         </span>
         <span class="col-sm-4 mt-2">{{item.school}}</span>
-        <span class="col-sm-5 mt-2" v-html="item.descr">{{item.descr}}</span>
+        <span class="col-sm-5 mt-2" v-html="item.descr"></span>
       </div>
     </div>
   </script>
@@ -92,7 +94,7 @@
           <span>{{item.date}}</span>
         </span>
         <span class="col-sm-4 mt-2">{{item.where}}</span>
-        <span class="col-sm-5 mt-2">{{item.descr}}</span>
+        <span class="col-sm-5 mt-2" v-html="item.descr"></span>
       </div>
     </div>
   </script>

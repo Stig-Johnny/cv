@@ -4,6 +4,36 @@ Vue.component('datakompetanse', {
         return {
           data: [
             {
+              name: "Kunstig intelligens (AI)",
+              nameEn: "Artificial Intelligence",
+              comp: [
+                {
+                  name: "Claude Code",
+                  fading: false
+                },
+                {
+                  name: "Codex CLI",
+                  fading: false
+                },
+                {
+                  name: "GitHub Copilot CLI",
+                  fading: false
+                },
+                {
+                  name: "MCP",
+                  fading: false
+                },
+                {
+                  name: "Agent Skills",
+                  fading: false
+                },
+                {
+                  name: "The Rig",
+                  fading: false
+                }
+              ]
+            },
+            {
               name: "Grafisk programvare",
               nameEn: "Graphic software",
               comp: [
@@ -62,6 +92,10 @@ Vue.component('datakompetanse', {
                   fading: false
                 },
                 {
+                  name: ".NET",
+                  fading: false
+                },
+                {
                   name: "ASP",
                   fading: true
                 },
@@ -91,7 +125,7 @@ Vue.component('datakompetanse', {
                 },
                 {
                   name: "jQuery",
-                  fading: false
+                  fading: true
                 },
                 {
                   name: "AngularJS",
@@ -99,7 +133,7 @@ Vue.component('datakompetanse', {
                 },
                 {
                   name: "VueJS",
-                  fading: false
+                  fading: true
                 },
                 {
                   name: "Less",
@@ -107,7 +141,7 @@ Vue.component('datakompetanse', {
                 },
                 {
                   name: "Sass",
-                  fading: false
+                  fading: true
                 },
                 {
                   name: "Knockout",
@@ -124,7 +158,7 @@ Vue.component('datakompetanse', {
                   fading: false
                 },
                 {
-                  name: "mySQL",
+                  name: "MySQL",
                   fading: true
                 },
                 {
@@ -136,7 +170,7 @@ Vue.component('datakompetanse', {
                   fading: false
                 },
                 {
-                  name: "PostgresSQL",
+                  name: "PostgreSQL",
                   fading: false
                 },
                 {
@@ -150,7 +184,7 @@ Vue.component('datakompetanse', {
               nameEn: "Operating Systems",
               comp: [
                 {
-                  name: "MacOS",
+                  name: "macOS",
                   fading: false
                 },
                 {
@@ -164,9 +198,27 @@ Vue.component('datakompetanse', {
               ]
             },
             {
+              name: "Mobil",
+              nameEn: "Mobile",
+              comp: [
+                {
+                  name: "iOS",
+                  fading: false
+                },
+                {
+                  name: "Swift",
+                  fading: false
+                }
+              ]
+            },
+            {
               name: "Skytjenester",
               nameEn: "Cloud services",
               comp: [
+                {
+                  name: "Azure Kubernetes Service",
+                  fading: false
+                },
                 {
                   name: "Azure",
                   fading: false
@@ -225,7 +277,7 @@ Vue.component('datakompetanse', {
                 },
                 {
                   name: "Azure Search",
-                  fading: false
+                  fading: true
                 },
                 {
                   name: "AWS",
@@ -238,9 +290,49 @@ Vue.component('datakompetanse', {
                 {
                   name: "Azure Cognitive Services",
                   fading: false
+                },
+                {
+                  name: "Google Cloud",
+                  fading: false
                 }
-                
-                
+              ]
+            },
+            {
+              name: "DevOps/GitOps",
+              nameEn: "DevOps/GitOps",
+              comp: [
+                {
+                  name: "Kubernetes",
+                  fading: false
+                },
+                {
+                  name: "ArgoCD",
+                  fading: false
+                },
+                {
+                  name: "FluxCD",
+                  fading: false
+                },
+                {
+                  name: "Grafana",
+                  fading: false
+                },
+                {
+                  name: "Terraform",
+                  fading: false
+                },
+                {
+                  name: "OpenTofu",
+                  fading: false
+                },
+                {
+                  name: "HashiCorp Vault",
+                  fading: false
+                },
+                {
+                  name: "SOPS",
+                  fading: false
+                }
               ]
             },
             {

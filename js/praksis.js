@@ -4,12 +4,20 @@ Vue.component('praksis', {
         return {
           data: [
             {
+              date: "Apr 2026 – d.d.",
+              dateEn: "Apr 2026 – present",
+              where: "Dashecorp AS",
+              whereEn: "Dashecorp AS",
+              descr: "Daglig leder <br/>The Rig: plattform for AI-agenter",
+              descrEn: "Managing Director <br/>The Rig: AI agent platform"
+            },
+            {
               date: "Okt 2023 – d.d.",
               dateEn: "Oct 2023 – present",
               where: "Invotek AS",
               whereEn: "Invotek AS",
-              descr: "Daglig leder og Senior konsulent",
-              descrEn: "CEO and Senior consultant"
+              descr: "Daglig leder og AI-arkitekt <br/>Kunder: Veriton (siden aug. 2026), Norsk Helsenett (jan. 2024 – jun. 2026, plattform)",
+              descrEn: "Managing Director and AI Solution Architect <br/>Clients: Veriton (since Aug 2026), Norsk Helsenett (Jan 2024 – Jun 2026, platform engineering)"
             },
             {
               date: "Aug 2022 – Sep 2023",
@@ -17,7 +25,7 @@ Vue.component('praksis', {
               where: "Mylder AS",
               whereEn: "Mylder AS",
               descr: "Senior konsulent",
-              descrEn: "Senior consultant"
+              descrEn: "Senior Consultant"
             },
             {
               date: "Sep 2018 – Jul 2022",
@@ -25,7 +33,7 @@ Vue.component('praksis', {
               where: "Q-Free ASA",
               whereEn: "Q-Free ASA",
               descr: "Lead developer",
-              descrEn: "Lead developer"
+              descrEn: "Lead Developer"
             },
             {
               date: "Mar 2016 – Aug 2018",
@@ -33,7 +41,7 @@ Vue.component('praksis', {
               where: "Visma Consulting AS",
               whereEn: "Visma Consulting AS",
               descr: "Lead konsulent",
-              descrEn: "Lead consultant"
+              descrEn: "Lead Consultant"
             },
             {
               date: "Mar 2009 – Feb 2016",
@@ -41,7 +49,7 @@ Vue.component('praksis', {
               where: "Avento AS",
               whereEn: "Avento AS",
               descr: "Senior konsulent",
-              descrEn: "Senior consultant"
+              descrEn: "Senior Consultant"
             },
             
             /*
@@ -95,7 +103,7 @@ Vue.component('praksis', {
               where: "Norstat Lillehammer",
               whereEn: "Norstat Lillehammer",
               descr: "Deltid, Intervjuer",
-              descrEn: "Part time, Survey interviews"
+              descrEn: "Part-time, Survey interviewer"
             },
             
             /*
